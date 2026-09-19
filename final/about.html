@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Kate Fugitt Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png">
+</head>
+
+<body class="desktop-page protected" id="top">
+ <main class="page-window">
+
+  <section class="sticky-note about-sticky">
+    <h1>Kate Fugitt</h1>
+  </section>
+
+  <button class="desktop-icon reopen-icon" id="aboutIcon">
+    <img src="images/icon-notepad.png" width="64" height="64" alt="Notepad icon">
+    <span>About</span>
+  </button>
+
+  <section class="window readable-window" id="aboutWindow">
+    <div class="window-bar">
+      <h1>About Me</h1>
+      <button class="close-window" data-target="aboutWindow">X</button>
+    </div>
+
+    <div class="window-content">
+      <article>
+        <h2>Producer & Editor</h2>
+
+        <p>
+          Kate Fugitt is an award-winning producer and editor currently studying
+          Film & Television at NYU. She is interested in producing, post-production,
+          live television, and finding creative ways to tell stories that feel personal,
+          organized, and visually engaging.
+        </p>
+
+        <p>
+          During her time at NYU, Kate has worked across student films, internships,
+          film festivals, and live production spaces. She has experience managing
+          production logistics, editing short-form content, supporting live shows,
+          organizing events, and collaborating with creative teams under tight deadlines.
+        </p>
+
+        <p>
+          Her goal is to build a career in film and television where she can combine
+          creative storytelling with the behind-the-scenes organization that helps
+          productions actually happen.
+        </p>
+      </article>
+
+      <figure class="image-frame about-photo">
+        <img
+          src="images/headshot-800.jpg"
+          srcset="images/headshot-400.jpg 400w, images/headshot-800.jpg 800w"
+          sizes="(max-width: 700px) 100vw, 600px"
+          width="800"
+          height="1000"
+          alt="Kate Fugitt standing outdoors">
+        <figcaption>Kate Fugitt</figcaption>
+      </figure>
+
+      <button id="resumeButton">Resume</button>
+      <section id="resumePopupArea"></section>
+
+      <a href="Kate-Resume-2026-Summer.pdf" download>
+  Download Resume
+</a>
+<p>Available for internships, freelance work, and collaborations.</p>
+    </div>
+  </section>
+
+</main>
+
+  <footer class="taskbar">
+  <button id="menuButton">Menu</button>
+
+  <nav id="startMenu" class="start-menu">
+    <a href="desktop.html">
+      <img src="images/icon-home.png" width="18" height="18" alt="">
+      Home
+    </a>
+
+    <a href="about.html">
+      <img src="images/icon-notepad.png" width="18" height="18" alt="">
+      About
+    </a>
+
+    <a href="projects.html">
+      <img src="images/icon-folder.png" width="18" height="18" alt="">
+      Projects
+    </a>
+
+    <a href="reel.html">
+      <img src="images/icon-cd.png" width="18" height="18" alt="">
+      Sizzle Reel
+    </a>
+
+    <a href="contact.html">
+      <img src="images/icon-mail.png" width="18" height="18" alt="">
+      Contact
+    </a>
+
+    <button id="logoutButton">
+      <img src="images/icon-power.png" width="18" height="18" alt="">
+      Log Out
+    </button>
+  </nav>
+
+  <p id="clock">5:11 PM</p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
